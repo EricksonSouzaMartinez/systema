@@ -6,11 +6,10 @@
     margin-right: 300px;
 }
 form{
-	border: 2px solid #eaeaea;
+	border: 5px solid #eaeaea;
+	margin: auto;
 	border-radius: .5em;
 	padding: 1em;
-	margin-left: auto;
-	margin-right: auto;
 	margin-bottom: 1em;
 }
 .titulo-cadastro{
@@ -65,4 +64,23 @@ sucesso-removido{
 }
 .cadastar{
 
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 960px;
+		height: 100px;
+	}
+}
+@media (min-width: 576px){
+	.container {
+		width: 540px;
+		max-width: 100%;
+	}
+}
+@media (min-width: 369px){
+	.container {
+		width: 360px;
+		max-width: 100%;
+	}
 }
