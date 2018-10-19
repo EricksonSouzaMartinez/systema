@@ -1,0 +1,68 @@
+
+.cadastro{
+    width: 100%;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 300px;
+}
+form{
+	border: 2px solid #eaeaea;
+	border-radius: .5em;
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+.titulo-cadastro{
+	font-size: 1.5em;
+	color: #609;
+	font-family: Officina Light;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.seleciona-categoria{
+	margin-left: 2.2em;
+}
+input{
+		display: block;
+}
+.cvalor-produto{
+	margin-left: 2.7em;
+}
+.tipoacesso,label{
+	padding-bottom: .5em;
+	margin-left: .3rem;
+	margin-bottom: .3rem;
+	color: #609;
+}
+.estado{
+	margin-left: 4.8em;
+}
+
+.cnome-produto{
+	margin-left: 3.25em;
+}
+
+.falha-inserir{
+	padding: 45px;
+	color: red;
+	text-align: center;
+}
+
+.sucesso-adicionado{
+	position: relative;
+	color: green;
+	text-align: center;
+}
+sucesso-removido{
+	position: relative;
+	color: red;
+	text-align: center;
+
+}
+.inserir{
+	margin-left: 55%;
+}
+.cadastar{
+
+}

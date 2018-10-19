@@ -1,0 +1,64 @@
+html{
+    font-size: 1em;
+	font-family: open sans;
+ }
+body{
+ 	margin: 0;
+}
+.cabecalho{
+	position: relative;
+	text-align: center;
+	background-color: #3367d6;
+	color: white;
+	padding-top: 1em;
+	min-height: 2em;
+	z-index: 2;
+}
+.index-principal{
+	font-family: 'PT Serif', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	position: relative;
+	text-align: center;
+	font-size: 2em;
+}
+.menu{
+	position: fixed;
+	float: left;
+	border-radius: 0px 0px 10px 10px;
+	margin-top: 0px;
+	left: 0px;
+	width: 10em;
+	height:100%;
+	background-color: #eae4ed;
+	padding: 0;
+	list-style-type: none;
+}
+.corpo{
+	margin-top: 46px;
+	height: 100%;
+	margin-bottom: 5px;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+	position: fixed;
+	right:20em;
+	left:20em;
+}
+li{
+	display: block;
+	color: #4c50ed;
+}
+li a{
+	display: block;
+	text-decoration: none;
+	padding: 8px 16px;
+	margin-left: 0.5em;
+}
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+.logado{
+	text-align: center;
+	color: green;
+	margin-top: 43em;
+}

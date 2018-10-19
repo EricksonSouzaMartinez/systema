@@ -1,0 +1,25 @@
+form{
+	border: 2px solid #eaeaea;
+	border-radius: .5em;
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+label{
+	padding-bottom: .5em;
+	margin-left: .3rem;
+	margin-bottom: .3rem;
+	color: #609;
+}
+h2{
+	font-size: 1.5em;
+	color: #609;
+	font-family: Officina Light;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.negado{
+	text-align: center;
+	color: red;
+}
